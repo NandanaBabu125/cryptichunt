@@ -1,0 +1,10 @@
+/* hideBadge.css — removes the Lovable badge */
+a[href*="lovable.dev"],
+a[href*="lovable.app"],
+.lovable-badge {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
